@@ -1,0 +1,5 @@
+export const SET_INSTRUMENT = 'SET_INSTRUMENT'
+export const SET_ACCIDENTAL = 'SET_ACCIDENTAL'
+export const SET_NUMBER_OF_FRETS = 'SET_NUMBER_OF_FRETS'
+export const SET_MODE = 'SET_MODE'
+export const SET_NOTE = 'SET_NOTE'
