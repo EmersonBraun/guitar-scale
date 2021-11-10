@@ -1,11 +1,6 @@
-import React, { useEffect, useState } from "react";
-import {
-  INSTRUMENT_TUNING_PRESETS,
-  MODES,
-  NOTES_FLAT,
-  NOTES_SHARP
-} from "../../constants";
-import { useConfig } from "../../context/config";
+import React from "react";
+import { INSTRUMENT_TUNING_PRESETS, MODES } from "../../constants";
+import { Accidental, useConfig } from "../../context/config";
 import { Container } from "./style";
 
 interface settingsProps {
@@ -17,38 +12,17 @@ const CHECKS = [
   { value: "sharps", label: "♯" },
 ];
 
-const DEFAULT_CONFIG = {
-  instrument: "Guitar",
-  accidental: "flats",
-  numberOfFrets: 22,
-  mode: "DORIAN",
-  note: "C",
-};
 export const Settings = ({ children }: settingsProps) => {
   const {
-    accidental,
     instrument,
     mode,
-    note,
+    accidental,
     numberOfFrets,
     setAccidental,
     setInstrument,
     setMode,
-    setNote,
     setNumberOfFrets,
   } = useConfig();
-
-  console.log({ accidental, instrument, mode, note, numberOfFrets });
-  const [config, setConfig] = useState(DEFAULT_CONFIG);
-  const [notes, setNotes] = useState(NOTES_FLAT);
-
-  useEffect(() => {
-    if (accidental === "flats") {
-      setNotes(NOTES_FLAT);
-    } else {
-      setNotes(NOTES_SHARP);
-    }
-  }, [accidental]);
 
   return (
     <Container className="settings" data-testid="settings">
@@ -59,7 +33,9 @@ export const Settings = ({ children }: settingsProps) => {
         onChange={(e) => setInstrument(e.target.value as any)}
       >
         {Object.keys(INSTRUMENT_TUNING_PRESETS).map((value, index) => (
-          <option key={index}>{value}</option>
+          <option selected={value === instrument} key={index}>
+            {value}
+          </option>
         ))}
       </select>
 
@@ -72,7 +48,7 @@ export const Settings = ({ children }: settingsProps) => {
               key={index}
               name="accidentals"
               value={accidental}
-              onChange={() => setAccidental(value)}
+              onChange={() => setAccidental(value as Accidental)}
               checked={accidental === value}
             />
             <label htmlFor="flats">{label}</label>
@@ -94,14 +70,7 @@ export const Settings = ({ children }: settingsProps) => {
       <label htmlFor="mode">Selected mode:</label>
       <select name="mode" id="mode" onChange={(e) => setMode(e.target.value)}>
         {Object.keys(MODES).map((value, index) => (
-          <option key={index}>{value}</option>
-        ))}
-      </select>
-
-      <label htmlFor="note">Selected note:</label>
-      <select name="note" id="note" onChange={(e) => setNote(e.target.value)}>
-        {notes.map((value, index) => (
-          <option key={index}>{value}</option>
+          <option selected={value === mode} key={index}>{value}</option>
         ))}
       </select>
     </Container>

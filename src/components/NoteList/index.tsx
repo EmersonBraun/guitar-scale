@@ -1,25 +1,29 @@
 import React from "react";
 import { CHROMATIC } from "../../constants/chromatic";
-import { useConfig } from "../../context/config";
-import { mountMode } from "../../services/modes";
-import { Container } from "./style";
+// import { CHROMATIC } from "../../constants/chromatic";
+import { NoteInterface, useConfig } from "../../context/config";
+// import { mountMode } from "../../services/modes";
+import { Container, NoteCircle } from "./style";
 
 interface noteListProps {
   children?: React.ReactNode;
 }
 export const NoteList = ({ children }: noteListProps) => {
-  const { accidental, mode, note } = useConfig();
-  const mountedMode = () => {
-    const currentStringIndex = CHROMATIC.findIndex(
-      ({ flats, sharps }) => flats === note || sharps === note
-    );
-    return mountMode({ mode, currentStringIndex, accidentals:accidental });
-  };
+  const { accidental, note, setNote, setNoteHover } = useConfig();
 
   return (
     <Container className="note-name-section" data-testid="note-list">
-      {mountedMode()?.length &&
-        mountedMode().map((name) => <span key={name}>{name}</span>)}
+      {CHROMATIC.map((notes: NoteInterface, index) => (
+        <NoteCircle
+          key={index}
+          onClick={() => setNote(notes)}
+          onMouseEnter={() => setNoteHover(notes)}
+          onMouseLeave={() => setNoteHover(undefined)}
+          selected={notes[accidental] === note[accidental]}
+        >
+          {notes[accidental]}
+        </NoteCircle>
+      ))}
     </Container>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { CHROMATIC } from "../../constants/chromatic";
-import { useConfig } from "../../context/config";
+import { NoteInterface, useConfig } from "../../context/config";
 import { mountMode } from "../../services/modes";
 import { getNoteByIndex } from "../../services/notes";
 import { Note } from "../Note";
@@ -30,7 +30,7 @@ export const NoteFret = ({
         instrumentName: instrument,
       });
     },
-    []
+    [instrument]
   );
 
   const noteName: any = generateNoteNames({
@@ -39,13 +39,14 @@ export const NoteFret = ({
     accidentals: accidental,
   });
 
+  const currentIndex = CHROMATIC.find(
+    (notes: NoteInterface) => notes[accidental] === note[accidental]
+  );
+
   const noteInMode = (noteName: string) => {
-    const currentStringIndex = CHROMATIC.findIndex(
-      ({ flats, sharps }) => flats === note || sharps === note
-    );
     const mountedMode = mountMode({
       mode,
-      currentStringIndex,
+      currentStringIndex: currentIndex?.index ? --currentIndex.index : 1,
       accidentals: accidental,
     });
     return mountedMode.includes(noteName);
@@ -56,7 +57,14 @@ export const NoteFret = ({
       className={`note-fret ${singleFretmark && "single-fretmark"}`}
       data-testid="note-fret"
     >
-      {noteInMode(noteName) && <Note name={noteName} />}
+      {noteInMode(noteName) && (
+        <Note
+          name={noteName}
+          selected={[currentIndex?.flats, currentIndex?.sharps].includes(
+            noteName
+          )}
+        />
+      )}
       {doubleFretmark && <div className="double-fretmark"></div>}
     </Container>
   );

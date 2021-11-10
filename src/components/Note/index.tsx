@@ -3,7 +3,8 @@ import { Container } from "./style";
 
 interface noteProps {
   name: string;
+  selected: boolean
 }
-export const Note = ({ name }: noteProps) => {
-  return <Container data-testid="note">{name}</Container>;
+export const Note = ({ name, selected }: noteProps) => {
+  return <Container data-testid="note" selected={selected}>{name}</Container>;
 };
