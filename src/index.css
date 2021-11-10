@@ -25,6 +25,7 @@ body {
     color: #fff;
     padding: 20px;
     border-bottom: 1px solid #444;
+    justify-content: center;
     background: #282828;
 }
 .accidental-selector {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Instruments } from "../services/instruments";
 
 export const DEFAULT_CONFIG = {
-  instrument: "Guitar" as Instruments,
+  instrument: "Guitar (6 strings)" as Instruments,
   accidental: "flats" as Accidental,
   numberOfFrets: 22,
   mode: "DORIAN",

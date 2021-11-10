@@ -22,7 +22,7 @@ export const ModeList = ({ children }: modeListProps) => {
 
   useEffect(() => {
     setDefinitions(MODES_DEFINITIONS[mode]);
-  }, []);
+  }, [mode]);
 
   return (
     <Container data-testid="mode-list">

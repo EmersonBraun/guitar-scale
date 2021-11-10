@@ -11,8 +11,8 @@ function App() {
     <div>
       <ConfigProvider>
         <Settings />
-        <Instrument />
         <NoteList />
+        <Instrument />
         <ModeList />
       </ConfigProvider>
     </div>

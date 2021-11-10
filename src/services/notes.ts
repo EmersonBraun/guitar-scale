@@ -49,7 +49,7 @@ export const getNoteByIndex = ({
   noteIndex,
   stringIndex,
   accidentals,
-  instrumentName = "Guitar",
+  instrumentName = "Guitar (6 strings)",
 }: GetNoteByIndex) => {
   const currentStringIndex = getCurrentStringIndex({
     stringIndex,

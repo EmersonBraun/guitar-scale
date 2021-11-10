@@ -44,11 +44,10 @@ export const NoteFret = ({
   );
 
   const noteInMode = (noteName: string) => {
-    const mountedMode = mountMode({
-      mode,
-      currentStringIndex: currentIndex?.index ? --currentIndex.index : 1,
-      accidentals: accidental,
-    });
+    const currentStringIndex = CHROMATIC.findIndex(
+      (notes) => notes[accidental] === note[accidental]
+    );
+    const mountedMode = mountMode({ mode, currentStringIndex, accidentals: accidental });
     return mountedMode.includes(noteName);
   };
 
