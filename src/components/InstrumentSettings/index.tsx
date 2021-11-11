@@ -12,12 +12,13 @@ interface instrumentSettingsProps {
   children?: React.ReactNode;
 }
 export const InstrumentSettings = ({ children }: instrumentSettingsProps) => {
-  const { numberOfFrets, setInstrument, setNumberOfFrets } = useConfig();
+  const { numberOfFrets, instrument, setInstrument, setNumberOfFrets } = useConfig();
 
   return (
     <Container className="settings" data-testid="instrument-settings">
       <Select
         placeholder="Selected instrument:"
+        defaultValue={instrument}
         onChange={(e) => setInstrument(e.target.value as any)}
       >
         {Object.keys(INSTRUMENT_TUNING_PRESETS).map((value, index) => (

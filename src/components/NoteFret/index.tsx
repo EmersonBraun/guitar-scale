@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import { CHROMATIC } from "../../constants/chromatic";
 import { NoteInterface, useConfig } from "../../context/config";
 import { mountMode } from "../../services/modes";
-import { getNoteByIndex } from "../../services/notes";
+import { getCurrentNoteIndex, getNoteName } from "../../services/notes";
 import { Note } from "../Note";
 import { Container } from "./style";
 
@@ -19,18 +19,17 @@ export const NoteFret = ({
   noteIndex,
   stringIndex,
 }: noteFretProps) => {
-  const { accidental, instrument, mode, note } = useConfig();
+  const { accidental, mode, note } = useConfig();
 
   const generateNoteNames = useCallback(
     ({ noteIndex, stringIndex, accidentals }: any) => {
-      return getNoteByIndex({
+      const currentIndex = getCurrentNoteIndex({
         noteIndex,
-        stringIndex,
-        accidentals,
-        instrumentName: instrument,
+        currentStringIndex: stringIndex,
       });
+      return getNoteName({ accidentals, indexOfList: currentIndex });
     },
-    [instrument]
+    []
   );
 
   const noteName: any = generateNoteNames({
@@ -47,7 +46,11 @@ export const NoteFret = ({
     const currentStringIndex = CHROMATIC.findIndex(
       (notes) => notes[accidental] === note[accidental]
     );
-    const mountedMode = mountMode({ mode, currentStringIndex, accidentals: accidental });
+    const mountedMode = mountMode({
+      mode,
+      currentStringIndex,
+      accidentals: accidental,
+    });
     return mountedMode.includes(noteName);
   };
 

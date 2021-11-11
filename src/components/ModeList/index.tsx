@@ -26,12 +26,12 @@ export const ModeList = ({ children }: modeListProps) => {
 
   return (
     <Container data-testid="mode-list">
-      {/* <div>{definitions?.description}</div>
-      <div>{definitions?.sound}</div> */}
+      <div className="note-name-section2">{`Mode: ${mode}`}</div>
+      <div className="note-name-section2">{`Sound: ${definitions?.sound}`}</div>
       <div className="note-name-section2">
         {definitions?.degres?.length &&
-          definitions?.degres.map((value: string) => (
-            <span key={value}>{value}</span>
+          definitions?.degres.map((value: string, index: number) => (
+            <Tone key={value}>{index > 0 && " - "}{value}</Tone>
           ))}
       </div>
       <div className="note-name-section2">

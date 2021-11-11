@@ -10,7 +10,7 @@ interface settingsProps {
 }
 
 export const Settings = ({ children }: settingsProps) => {
-  const { accidental, setAccidental, setMode } = useConfig();
+  const { accidental, mode, setAccidental, setMode } = useConfig();
 
   return (
     <Container className="settings" data-testid="settings">
@@ -20,7 +20,8 @@ export const Settings = ({ children }: settingsProps) => {
       </ButtonGroup>
 
       <Select
-        placeholder="Selected instrument:"
+        placeholder="Selected mode:"
+        defaultValue={mode}
         onChange={(e) => setMode(e.target.value)}
       >
         {Object.keys(MODES).map((value, index) => (
