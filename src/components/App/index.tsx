@@ -1,3 +1,4 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import { ConfigProvider } from "../../context/config";
 import "../../index.css";
@@ -10,13 +11,15 @@ import { Settings } from "../Settings";
 function App() {
   return (
     <div>
-      <ConfigProvider>
-        <InstrumentSettings />
-        <Settings />
-        <NoteList />
-        <Instrument />
-        <ModeList />
-      </ConfigProvider>
+      <ChakraProvider>
+        <ConfigProvider>
+          <InstrumentSettings />
+          <Settings />
+          <NoteList />
+          <Instrument />
+          <ModeList />
+        </ConfigProvider>
+      </ChakraProvider>
     </div>
   );
 }

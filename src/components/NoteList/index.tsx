@@ -9,7 +9,7 @@ interface noteListProps {
   children?: React.ReactNode;
 }
 export const NoteList = ({ children }: noteListProps) => {
-  const { accidental, note, setNote, setNoteHover } = useConfig();
+  const { accidental, note, setNote } = useConfig();
 
   const handleNote = useCallback((type = "next") => {
     const currentNoteIndex = note.index;
@@ -21,7 +21,6 @@ export const NoteList = ({ children }: noteListProps) => {
       newIndex =
         currentNoteIndex === 1 ? CHROMATIC.length : currentNoteIndex - 1;
     }
-    console.log({ currentNoteIndex });
     const newNote = CHROMATIC.find((value) => value.index === newIndex);
     if (newNote) setNote(newNote);
   }, [note, setNote]);
@@ -35,8 +34,6 @@ export const NoteList = ({ children }: noteListProps) => {
         <Tone
           key={index}
           onClick={() => setNote(notes)}
-          // onMouseEnter={() => setNoteHover(notes)}
-          // onMouseLeave={() => setNoteHover(undefined)}
           selected={notes[accidental] === note[accidental]}
         >
           {notes[accidental]}

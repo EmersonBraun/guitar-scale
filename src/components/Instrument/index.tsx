@@ -10,7 +10,7 @@ import { Container } from "./style";
 
 export const Instrument = () => {
   const [length, setLength] = useState(6);
-  const { numberOfFrets, instrument } = useConfig();
+  const { instrument } = useConfig();
 
   useEffect(() => {
     const intrumentPreset = INSTRUMENT_TUNING_PRESETS[instrument];
@@ -26,12 +26,11 @@ export const Instrument = () => {
             <String
               key={key}
               stringIndex={key}
-              frets={numberOfFrets}
               doubleFretmarks={DEFAULT_DOUBLE_FRETMARKS}
               singleFretmarks={DEFAULT_SINGLE_FRETMARKS}
             />
           ) : (
-            <String key={key} stringIndex={key} frets={numberOfFrets} />
+            <String key={key} stringIndex={key}/>
           )
         )}
     </Container>
