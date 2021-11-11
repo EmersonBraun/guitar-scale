@@ -8,7 +8,6 @@ interface instrumentSettingsProps {
 }
 export const InstrumentSettings = ({ children }: instrumentSettingsProps) => {
   const {
-    instrument,
     numberOfFrets,
     setInstrument,
     setNumberOfFrets,
@@ -23,7 +22,7 @@ export const InstrumentSettings = ({ children }: instrumentSettingsProps) => {
         onChange={(e) => setInstrument(e.target.value as any)}
       >
         {Object.keys(INSTRUMENT_TUNING_PRESETS).map((value, index) => (
-          <option selected={value === instrument} key={index}>
+          <option key={index}>
             {value}
           </option>
         ))}

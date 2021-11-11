@@ -1,11 +1,16 @@
-import React from 'react';
 import { render, screen } from "@testing-library/react";
-import { Settings } from '.';
+import React from "react";
+import { Settings } from ".";
+import { ConfigProvider } from "../../context/config";
 
-describe('Testing Settings.jsx', () => {
-  it('should be rendered', () => {
-    render(<Settings/>);
-    const component = screen.getByTestId('settings')
-    expect(component).toBeInTheDocument()
+describe("Testing Settings.jsx", () => {
+  it("should be rendered", () => {
+    render(
+      <ConfigProvider>
+        <Settings />
+      </ConfigProvider>
+    );
+    const component = screen.getByTestId("settings");
+    expect(component).toBeInTheDocument();
   });
 });

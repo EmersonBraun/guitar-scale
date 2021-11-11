@@ -3,7 +3,7 @@ import { MODES_DEFINITIONS } from "../../constants";
 import { CHROMATIC } from "../../constants/chromatic";
 import { useConfig } from "../../context/config";
 import { mountMode } from "../../services/modes";
-import { NoteCircle } from "../NoteList/style";
+import { Tone } from "../NoteList/style";
 import { Container } from "./style";
 
 interface modeListProps {
@@ -37,10 +37,10 @@ export const ModeList = ({ children }: modeListProps) => {
       <div className="note-name-section2">
         {mountedMode()?.length &&
           mountedMode().map((name, index) => (
-            <NoteCircle selected={name === note[accidental]} key={name}>
+            <Tone selected={name === note[accidental]} key={name}>
               {index > 0 && " - "}
               {name}
-            </NoteCircle>
+            </Tone>
           ))}
       </div>
     </Container>
