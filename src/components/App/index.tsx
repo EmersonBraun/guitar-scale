@@ -7,6 +7,7 @@ import { InstrumentSettings } from "../InstrumentSettings";
 import { ModeList } from "../ModeList";
 import { NoteList } from "../NoteList";
 import { Settings } from "../Settings";
+import { BuyACoffeImg } from "./style";
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
           <NoteList />
           <Instrument />
           <ModeList />
+          <a href="https://www.buymeacoffee.com/emersonbraun" target="_blank" rel="noreferrer">
+            <BuyACoffeImg
+              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+              alt="Buy Me A Coffee"
+            />
+          </a>
         </ConfigProvider>
       </ChakraProvider>
     </div>
