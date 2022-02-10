@@ -36,8 +36,8 @@ export const ModeList = ({ children }: modeListProps) => {
       </div>
       <div className="note-name-section2">
         {mountedMode()?.length &&
-          mountedMode().map((name, index) => (
-            <Tone selected={name === note[accidental]} key={name}>
+          mountedMode().map((name: {} | null | undefined, index: number) => (
+            <Tone selected={name === note[accidental]} key={index}>
               {index > 0 && " - "}
               {name}
             </Tone>
