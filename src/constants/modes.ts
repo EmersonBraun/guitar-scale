@@ -7,6 +7,7 @@ export type Modes =
   | "LYDIAN"
   | "MIXOLYDIAN"
   | "PHRYGIAN"
+  | "MAJOR_PENTATONIC"
   | "MINOR_PENTATONIC_7";
 
 export const MODES = {
@@ -60,7 +61,15 @@ export const MODES = {
    * minor sounding; Eastern/Spanish/Latin
    */
   PHRYGIAN: [1, 2, 4, 6, 8, 9, 11],
-  MINOR_PENTATONIC_7: [1, 4, 6, 8, 11]
+  MINOR_PENTATONIC_7: [1, 4, 6, 8, 11],
+  /**
+   * C	D	E	G	A	C
+   */
+  MAJOR_PENTATONIC: [1, 3, 5, 8, 10 ],
+  /**
+   * C Db	Eb	Gb	Ab	C
+   */
+   MINOR_PENTATONIC: [1, 3, 5, 8, 10 ],
 };
 
 export const MODES_DEFINITIONS: any = {
