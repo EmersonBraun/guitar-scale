@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
 import { ModeList } from ".";
-import { ConfigProvider } from "../../context/config";
+import { ConfigProvider } from "../../../context/config";
 
 describe("Testing ModeList.jsx", () => {
   it("should be rendered", () => {

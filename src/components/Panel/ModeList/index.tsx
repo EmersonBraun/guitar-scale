@@ -3,7 +3,7 @@ import { MODES_DEFINITIONS } from "../../../constants";
 import { CHROMATIC } from "../../../constants/chromatic";
 import { useConfig } from "../../../context/config";
 import { mountMode } from "../../../services/modes";
-import { Tone } from "../NoteList/style";
+import { Tone } from "../../Settings/NoteList/style";
 import { Container } from "./style";
 
 interface modeListProps {

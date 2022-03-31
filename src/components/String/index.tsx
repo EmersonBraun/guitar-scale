@@ -34,9 +34,9 @@ export const String = ({
     <Container className="string" data-testid="string">
       {stringTone()}
       {fretList.length &&
-        fretList.map((noteIndex) => (
+        fretList.map((noteIndex, key) => (
           noteIndex > 1 ? <NoteFret
-            key={noteIndex}
+            key={key}
             noteIndex={noteIndex}
             stringIndex={index}
             doubleFretmark={doubleFretmarks?.includes(noteIndex-1) ?? false}

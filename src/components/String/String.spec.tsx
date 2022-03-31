@@ -9,7 +9,7 @@ describe("Testing String.jsx", () => {
       <ConfigProvider>
         <String
           stringIndex={1}
-          frets={1}
+          // frets={1}
           doubleFretmarks={[1]}
           singleFretmarks={[1]}
         />
