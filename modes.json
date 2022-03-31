@@ -1,0 +1,2188 @@
+[
+  {
+    "name": "CHOMATIC",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 12,
+            "sharp": "VII",
+            "flat": "VII",
+            "blueNote": false,
+            "pentatonic": false
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 12,
+            "sharp": "VII",
+            "flat": "VII",
+            "blueNote": false,
+            "pentatonic": false
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II♭",
+      "II",
+      "III♭",
+      "III",
+      "IV",
+      "V♭",
+      "V",
+      "VI♭",
+      "VI",
+      "VII♭",
+      "VII"
+    ],
+    "description": "All notes",
+    "sound": "normal"
+  },
+  {
+    "name": "IONIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 12,
+            "sharp": "VII",
+            "flat": "VII",
+            "blueNote": false,
+            "pentatonic": false
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 12,
+            "sharp": "VII",
+            "flat": "VII",
+            "blueNote": false,
+            "pentatonic": false
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          8,
+          10
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII"
+    ],
+    "description": "The ionian mode is the same as the major scale. In other words, it's the major scale, unmodified.",
+    "sound": "normal"
+  },
+  {
+    "name": "DORIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          7,
+          8,
+          10,
+          11
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II",
+      "III♭",
+      "IV",
+      "V",
+      "VI",
+      "VII♭"
+    ],
+    "description": "From the major scale, the dorian mode is created by flattening the 3rd and flattening the 7th. Or, just like the natural minor scale, but with a raised 'VI',th scale degree",
+    "sound": "minor sounding; Smooth/Jazzy"
+  },
+  {
+    "name": "PHRYGIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          9,
+          11
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II♭",
+      "III♭",
+      "IV",
+      "V",
+      "VI♭",
+      "VII♭"
+    ],
+    "description": "From the major scale, the phrygian mode is created by flattening the 2nd, 3rd, 'VI',th and 7th. Or, just like the natural minor scale, but with a flattening 2nd scale degree.",
+    "sound": "minor sounding; Eastern/Spanish/Latin"
+  },
+  {
+    "name": "LYDIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 12,
+            "sharp": "VII",
+            "flat": "VII",
+            "blueNote": false,
+            "pentatonic": false
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 12,
+            "sharp": "VII",
+            "flat": "VII",
+            "blueNote": false,
+            "pentatonic": false
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8,
+          10,
+          12
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          8,
+          10
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II",
+      "III",
+      "IV#",
+      "V",
+      "VI",
+      "VII"
+    ],
+    "description": "From the major scale, the lydian mode is created by raising the 4th scale degree.",
+    "sound": "major sounding; Dreamy/Ethereal"
+  },
+  {
+    "name": "MIXOLYDIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 5,
+            "sharp": "III",
+            "flat": "III",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 10,
+            "sharp": "VI",
+            "flat": "VI",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          5,
+          8,
+          10,
+          11
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII♭"
+    ],
+    "description": "From the major scale, the mixolydian mode is created by flattening the 7th scale degree.",
+    "sound": "major sounding; Smooth/Bluesy"
+  },
+  {
+    "name": "AEOLIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          11
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 3,
+            "sharp": "II",
+            "flat": "II",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 8,
+            "sharp": "V",
+            "flat": "V",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          3,
+          4,
+          7,
+          8,
+          9,
+          11
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II",
+      "III♭",
+      "IV",
+      "V",
+      "VI♭",
+      "VII♭"
+    ],
+    "description": "The aeolian mode is the same as the minor scale. It's obtained from the major scale by flattening the 3rd, 'VI',th and 7th scale degrees.",
+    "sound": "minor sounding; Sad"
+  },
+  {
+    "name": "LOCRIAN",
+    "scales": {
+      "default": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          9,
+          11
+        ]
+      },
+      "pentatonic": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          9,
+          11
+        ]
+      },
+      "default-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 6,
+            "sharp": "IV",
+            "flat": "IV",
+            "blueNote": false,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          4,
+          6,
+          7,
+          7,
+          9,
+          11
+        ]
+      },
+      "pentatonic-blueNote": {
+        "scale": [
+          {
+            "index": 1,
+            "sharp": "I",
+            "flat": "I",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 2,
+            "sharp": "I#",
+            "flat": "II♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 4,
+            "sharp": "II#",
+            "flat": "III♭",
+            "blueNote": true,
+            "pentatonic": true
+          },
+          {
+            "index": 7,
+            "sharp": "IV#",
+            "flat": "V♭",
+            "blueNote": true,
+            "pentatonic": false
+          },
+          {
+            "index": 9,
+            "sharp": "V#",
+            "flat": "VI♭",
+            "blueNote": false,
+            "pentatonic": true
+          },
+          {
+            "index": 11,
+            "sharp": "VI#",
+            "flat": "VII♭",
+            "blueNote": false,
+            "pentatonic": true
+          }
+        ],
+        "indexes": [
+          1,
+          2,
+          4,
+          7,
+          9,
+          11
+        ]
+      }
+    },
+    "degrees": [
+      "I",
+      "II♭",
+      "III♭",
+      "IV",
+      "V♭",
+      "VI♭",
+      "VII♭"
+    ],
+    "description": "From the major scale, the locrian mode is created by flattening the 2nd, 3rd, 5th, 'VI',th and 7th scale degrees. Or, starting from the minor scale, the locrian is obtained by flattening the 2nd and 5th scale degrees.",
+    "sound": "diminished sounding; Unresolved/Strange"
+  }
+]

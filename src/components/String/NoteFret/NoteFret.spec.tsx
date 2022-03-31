@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import React from "react";
 import { NoteFret } from ".";
-import { ConfigProvider } from "../../context/config";
+import { ConfigProvider } from "../../../context/config";
 
 describe("Testing NoteFret.jsx", () => {
   it("should be rendered", () => {

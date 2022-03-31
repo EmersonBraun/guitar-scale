@@ -20,3 +20,5 @@ export const mountMode = ({ mode, currentStringIndex, accidentals }: any) => {
     return getNoteName({ accidentals, indexOfList: currentNoteIndex });
   });
 };
+
+

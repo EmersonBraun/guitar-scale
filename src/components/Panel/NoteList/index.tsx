@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
-import { CHROMATIC } from "../../constants/chromatic";
+import { CHROMATIC } from "../../../constants/chromatic";
 // import { CHROMATIC } from "../../constants/chromatic";
-import { NoteInterface, useConfig } from "../../context/config";
+import { NoteInterface, useConfig } from "../../../context/config";
 // import { mountMode } from "../../services/modes";
 import { Container, Tone } from "./style";
 

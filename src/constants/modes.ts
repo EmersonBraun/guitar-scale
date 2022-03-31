@@ -61,55 +61,69 @@ export const MODES = {
    * minor sounding; Eastern/Spanish/Latin
    */
   PHRYGIAN: [1, 2, 4, 6, 8, 9, 11],
-  MINOR_PENTATONIC_7: [1, 4, 6, 8, 11],
   /**
    * C	D	E	G	A	C
    */
-  MAJOR_PENTATONIC: [1, 3, 5, 8, 10 ],
+  MAJOR_PENTATONIC: [1, 3, 5, 8, 10],
   /**
    * C Db	Eb	Gb	Ab	C
    */
-   MINOR_PENTATONIC: [1, 3, 5, 8, 10 ],
+  MINOR_PENTATONIC: [1, 3, 5, 8, 10],
+
+  MINOR_PENTATONIC_7: [1, 4, 6, 8, 11],
+  /**
+   * with blue note
+   */
+  IONIAN_BLUE: [1, 3, 4, 5, 6, 8, 10, 12],
+  AEOLIAN_BLUE: [1, 3, 4, 6, 7, 8, 9, 11],
+  DORIAN_BLUE: [1, 3, 4, 6, 7, 8, 10, 11],
+  LOCRIAN_BLUE: [1, 2, 3, 4, 6, 7, 9, 11], // 3?
+  LYDIAN_BLUE: [1, 3, 4, 5, 7, 8, 10, 12],
+  MIXOLYDIAN_BLUE: [1, 3, 4, 5, 6, 8, 10, 11],
+  PHRYGIAN_BLUE: [1, 2, 4, 6, 7, 8, 9, 11],
+  MAJOR_PENTATONIC_BLUE: [1, 3, 4, 5, 8, 10],
+  MINOR_PENTATONIC_BLUE: [1, 3, 4, 5, 8, 10],
+  MINOR_PENTATONIC_7_BLUE: [1, 4, 6, 7, 8, 11],
 };
 
 export const MODES_DEFINITIONS: any = {
   CHOMATIC: {
-    degres: ["I", "II", "III", "IV", "V", "VI", "VII"],
+    degrees: ["I", "II", "III", "IV", "V", "VI", "VII"],
     description: `The ionian mode is the same as the major scale. In other words, it's the major scale, unmodified.`,
     sound: "normal",
   },
   IONIAN: {
-    degres: ["I", "II", "III", "IV", "V", "VI", "VII"],
+    degrees: ["I", "II", "III", "IV", "V", "VI", "VII"],
     description: `The ionian mode is the same as the major scale. In other words, it's the major scale, unmodified.`,
     sound: "normal",
   },
   DORIAN: {
-    degres: ["I", "II", "bIII", "IV", "V", "VI", "bVII"],
+    degrees: ["I", "II", "bIII", "IV", "V", "VI", "bVII"],
     description: `From the major scale, the dorian mode is created by flattening the 3rd and flattening the 7th. Or, just like the natural minor scale, but with a raised 'VI',th scale degree`,
     sound: `minor sounding; Smooth/Jazzy`,
   },
   PHRYGIAN: {
-    degres: ["I", "bII", "bIII", "IV", "V", "bVI", "bVII"],
+    degrees: ["I", "bII", "bIII", "IV", "V", "bVI", "bVII"],
     description: `From the major scale, the phrygian mode is created by flattening the 2nd, 3rd, 'VI',th and 7th. Or, just like the natural minor scale, but with a flattening 2nd scale degree.`,
     sound: `minor sounding; Eastern/Spanish/Latin`,
   },
   LYDIAN: {
-    degres: ["I", "II", "III", "#IV", -"V", "VI", "VII"],
+    degrees: ["I", "II", "III", "#IV", -"V", "VI", "VII"],
     description: `From the major scale, the lydian mode is created by raising the 4th scale degree.`,
     sound: `major sounding; Dreamy/Ethereal`,
   },
   MIXOLYDIAN: {
-    degres: ["I", "II", "III", "IV", "V", "VI", "bVII"],
+    degrees: ["I", "II", "III", "IV", "V", "VI", "bVII"],
     description: `From the major scale, the mixolydian mode is created by flattening the 7th scale degree.`,
     sound: `major sounding; Smooth/Bluesy`,
   },
   AEOLIAN: {
-    degres: ["I", "II", "bIII", "IV", "V", "bVI", "bVII"],
+    degrees: ["I", "II", "bIII", "IV", "V", "bVI", "bVII"],
     description: `The aeolian mode is the same as the minor scale. It's obtained from the major scale by flattening the 3rd, 'VI',th and 7th scale degrees.`,
     sound: `minor sounding; Sad`,
   },
   LOCRIAN: {
-    degres: ["I", "bII", "bIII", "IV", "Vb", "bVI", "bVII"],
+    degrees: ["I", "bII", "bIII", "IV", "Vb", "bVI", "bVII"],
     description: `From the major scale, the locrian mode is created by flattening the 2nd, 3rd, 5th, 'VI',th and 7th scale degrees. Or, starting from the minor scale, the locrian is obtained by flattening the 2nd and 5th scale degrees.`,
     sound: `diminished sounding; Unresolved/Strange`,
   },

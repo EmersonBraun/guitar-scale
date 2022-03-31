@@ -1,8 +1,8 @@
 import React, { useCallback } from "react";
-import { CHROMATIC } from "../../constants/chromatic";
-import { NoteInterface, useConfig } from "../../context/config";
-import { mountMode } from "../../services/modes";
-import { getCurrentNoteIndex, getNoteName } from "../../services/notes";
+import { CHROMATIC } from "../../../constants/chromatic";
+import { NoteInterface, useConfig } from "../../../context/config";
+import { mountMode } from "../../../services/modes";
+import { getCurrentNoteIndex, getNoteName } from "../../../services/notes";
 import { Note } from "../Note";
 import { Container } from "./style";
 

@@ -3,12 +3,12 @@ import {
   DEFAULT_DOUBLE_FRETMARKS,
   DEFAULT_SINGLE_FRETMARKS,
   INSTRUMENT_TUNING_PRESETS
-} from "../../constants";
-import { useConfig } from "../../context/config";
-import { String } from "../String";
+} from "../../../constants";
+import { useConfig } from "../../../context/config";
+import { String } from "../../String";
 import { Container } from "./style";
 
-export const Instrument = () => {
+export const InstrumentPresentation = () => {
   const [length, setLength] = useState(6);
   const { instrument } = useConfig();
 
@@ -19,7 +19,7 @@ export const Instrument = () => {
 
   const stringList = Array.from({ length }, (_, i) => i + 1);
   return (
-    <Container className="fretboard" data-testid="instrument">
+    <Container className="fretboard" data-testid="instrumentPresentation">
       {stringList.length &&
         stringList.map((key) =>
           key === 1 ? (

@@ -4,8 +4,8 @@ import {
   NumberInputStepper, Select
 } from "@chakra-ui/react";
 import React from "react";
-import { INSTRUMENT_TUNING_PRESETS } from "../../constants";
-import { useConfig } from "../../context/config";
+import { INSTRUMENT_TUNING_PRESETS } from "../../../constants";
+import { useConfig } from "../../../context/config";
 import { Container } from "./style";
 
 interface instrumentSettingsProps {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { INSTRUMENT_TUNING_PRESETS } from "../../constants";
 import { CHROMATIC } from "../../constants/chromatic";
 import { NoteInterface, useConfig } from "../../context/config";
-import { NoteFret } from "../NoteFret";
+import { NoteFret } from "./NoteFret";
 import { Container } from "./style";
 
 interface stringProps {
