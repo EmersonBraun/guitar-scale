@@ -17,7 +17,7 @@
 }
 
 body {
-    background: #353535;
+    background: #353535 !important;
     font-family: Lato, sans-serif;
 }
 .settings {
@@ -36,6 +36,11 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 label {
     margin: 0 10px;
+}
+@media (max-width: 600px) {
+    .fretboard {
+        flex-direction: row;
+    }
 }
 .fretboard {
     display: flex;
