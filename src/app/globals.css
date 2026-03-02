@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 1.5cm;
+  }
+
+  html, body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .print\:block {
+    display: block !important;
+  }
+
+  .print\:flex {
+    display: flex !important;
+  }
+
+  /* Fretboard print styles */
+  .print-fretboard-area {
+    border: none !important;
+    background: white !important;
+    padding: 0 !important;
+  }
+
+  /* Make note circles visible with forced colors */
+  [class*="bg-amber-500"] {
+    background-color: #f59e0b !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  [class*="bg-indigo-600"] {
+    background-color: #4f46e5 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  [class*="bg-rose-500"] {
+    background-color: #f43f5e !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  [class*="bg-indigo-700"] {
+    background-color: #4338ca !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
