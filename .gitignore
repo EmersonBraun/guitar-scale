@@ -33,3 +33,8 @@ bun.lock
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Cloudflare (OpenNext / wrangler)
+.open-next/
+.wrangler/
+.dev.vars
